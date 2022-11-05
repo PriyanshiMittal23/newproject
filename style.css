@@ -1,0 +1,147 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 13, 13);
+    color:white;
+    position: static;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: larger;
+    position: absolute;
+    left: 150px;
+    font-style: ;
+   
+}
+.book{
+    position: absolute;
+    right:150px;
+    color:  #29d9d5;
+    border: solid;
+    border-color: #29d9d5;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+.book:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    
+}
+li:hover{
+    color: #29d9d5;
+}
+li{
+    float: left;
+    display: block;
+    padding: 10px;
+}
+.book1{
+    width: 90px;
+   
+    color:  #29d9d5;
+    border: solid;
+    border-color: #29d9d5;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    margin-left: 500px;
+}
+.book1:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.i1{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.i2{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.i3{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.i4{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.i5{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.i6{
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+}
+.i1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.i2:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.i3:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.i4:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.i5:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.i6:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.banner{
+    background-image: url("R.jpeg");
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+h5{
+    color: #29d9d5;
+    font-size: medium;
+}
